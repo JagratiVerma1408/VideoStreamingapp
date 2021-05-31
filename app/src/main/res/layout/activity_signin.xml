@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Activities.SigninActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbarsignin">
+
+    </include>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emaillayout"
+            android:layout_width="0dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="#2B2B2B"
+            android:padding="1dp"
+            android:textColorHint="#BDB5B5"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.346">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailedittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Email"
+                android:background="#2B2B2B"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="20dp"
+                android:imeOptions="actionNext"
+                android:singleLine="true">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordlayout"
+            android:layout_width="0dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="#2B2B2B"
+            android:padding="1dp"
+            android:textColorHint="#BDB5B5"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.346"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="150dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordedittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:background="#2B2B2B"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="20dp">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:background="@drawable/button_stroke"
+            android:layout_marginTop="30dp"
+            android:id="@+id/signinbutton"
+            android:text="Sign In"
+            android:textColor="#FFFEFE"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="@+id/passwordlayout"
+            app:layout_constraintStart_toStartOf="@+id/passwordlayout"
+            app:layout_constraintTop_toBottomOf="@+id/passwordlayout"
+            >
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/forgotpasswordtextview"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Forgot Password?"
+            android:textColor="#A8A6A6"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="@+id/passwordlayout"
+            app:layout_constraintStart_toStartOf="@+id/passwordlayout"
+            app:layout_constraintTop_toBottomOf="@+id/signinbutton">
+        </TextView>
+
+        <TextView
+            android:id="@+id/singuptextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="New to Netflix? Sign up now."
+            android:textColor="#A8A6A6"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/forgotpasswordtextview"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="@+id/forgotpasswordtextview"
+            app:layout_constraintTop_toBottomOf="@+id/forgotpasswordtextview">
+
+        </TextView>
+   <ProgressBar
+       android:layout_width="51dp"
+       android:id="@+id/signinprogressbar"
+       android:layout_height="76dp"
+       android:layout_marginBottom="92dp"
+       android:theme="@style/AppTheme.Custom"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent">
+
+   </ProgressBar>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

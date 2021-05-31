@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.FinishUpAccount">
+    <include layout="@layout/toolbar_stepone"/>
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="110dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:src="@drawable/ic_baseline_check_circle_outline_24" />
+
+        <TextView
+            android:id="@+id/step1of3finish"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="STEP 2 OF 3"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="Finish setting up your account."
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:gravity="center"
+            android:text="Netflix is personalised for you. Create
+a password to watch Netflix on
+any device at any time"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/continuefinish"
+            android:layout_width="251dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="70dp"
+            android:background="@color/progressbar"
+            android:text="CONTINUE"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

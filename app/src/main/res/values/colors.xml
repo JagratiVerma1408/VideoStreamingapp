@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#000</color>
+    <color name="progressbar">#C10505</color>
+    <color name="activedots">#C81212</color>
+    <color name="inactivedots">#939292</color>
+    <color name="item_selected">#fff</color>
+    <color name="item_unselected">#636161</color>
+    <color name="bottom_navigation">#171717</color>
+
+</resources>

@@ -1,0 +1,136 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        tools:context=".Mainscreens.Mainscreen">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="644dp"
+            android:background="@color/colorPrimary"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"
+            app:layout_constraintBottom_toTopOf="@+id/getstarted"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/netflixlogo"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/ic_logo_netflix">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/privacytextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="124dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/netflixlogo"
+                    android:text="PRIVACY"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/helptextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/netflixlogo"
+                    android:text="HELP"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/signintextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/netflixlogo"
+                    android:text="SIGNIN"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpagerswipescreen"
+                android:layout_width="match_parent"
+                android:layout_height="586dp"
+                android:layout_marginTop="57dp"
+                android:layout_marginBottom="63dp"
+                tools:ignore="MissingConstraints">
+
+            </androidx.viewpager.widget.ViewPager>
+
+            <LinearLayout
+                android:id="@+id/silderdots"
+                android:layout_width="182dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="116dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="650dp"
+                android:layout_marginEnd="113dp"
+                android:layout_marginBottom="63dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/getstarted"
+            android:layout_width="334dp"
+            android:layout_height="59dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/activedots"
+            android:text="GET STARTED"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        </Button>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</merge>

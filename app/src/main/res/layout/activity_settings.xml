@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#000"
+    tools:context=".Mainscreens.Settings">
+
+    <include layout="@layout/settingstoolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="376dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="70dp"
+            android:text="We will send you an email with instructions on how to reset your password."
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:id="@+id/emailsettings"
+            android:layout_width="354dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:background="@drawable/resettextview"
+            android:gravity="center"
+            android:text="Email"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/plansettings"
+            android:layout_width="354dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:background="@drawable/resettextview"
+            android:gravity="center"
+            android:text="Plan"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/datesettings"
+            android:layout_width="354dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:background="@drawable/resettextview"
+            android:gravity="center"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordlayout"
+            android:layout_width="354dp"
+            android:layout_height="66dp"
+           android:layout_gravity="center"
+            android:background="@drawable/resettextview"
+            android:padding="1dp"
+            android:textColorHint="#000"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:hintTextColor="#000"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/resetpasswordedittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:hint="Current Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textSize="20dp">
+
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/resetpasswordbutton"
+            android:layout_width="354dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:background="@drawable/resetbutton"
+            android:text="Change Password"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/signoutbutton"
+            android:layout_width="354dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:background="@drawable/resetbutton"
+            android:text="Signout"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_gravity="bottom"
+            android:background="@color/bottom_navigation"
+            app:itemIconTint="@drawable/itemselected"
+            app:itemTextColor="@drawable/itemselected"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_navigator" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

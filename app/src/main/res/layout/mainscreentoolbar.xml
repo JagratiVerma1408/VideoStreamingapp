@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#000"
+        android:theme="@style/Theme.AppCompat.Light.Dialog"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000">
+
+            <ImageView
+                android:id="@+id/netflixlogo"
+                android:layout_width="115dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/ic_netflix_icon_text">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tvseriestooltext"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/netflixlogo"
+                android:text="TvSeries"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/movietooltext"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="133dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/netflixlogo"
+                android:text="Movies"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+</merge>

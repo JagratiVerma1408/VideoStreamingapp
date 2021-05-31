@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#fff"
+        android:theme="@style/Theme.AppCompat.Light.Dialog"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+            <ImageView
+                android:id="@+id/netflixlogo"
+                android:layout_width="125dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/ic_netflix_icon_text">
+
+            </ImageView>
+
+
+            <TextView
+                android:id="@+id/signoutstepthree"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/netflixlogo"
+                android:text="SIGNOUT"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+</merge>
