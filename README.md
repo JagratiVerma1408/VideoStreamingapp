@@ -1,4 +1,5 @@
 # VideoStreamingapp/Netflix clone
+An android application based on Java is a clone of the popular streaming app Netflix.
 
 ## Main Features
 
