@@ -17,18 +17,19 @@ An android application based on Java is a clone of the popular streaming app Net
 
 ## Screenshots
 
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-05-18-046_com.example.netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182330_Netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182411_Netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182422_Netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182434_Netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-06-33-122_com.example.netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182538_Netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182547_Netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-07-26-388_com.example.netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184612_Netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-08-01-815_com.example.netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184650_Netflix.jpg" width=160>]
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-05-18-046_com.example.netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182330_Netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182411_Netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182422_Netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182434_Netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-06-33-122_com.example.netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182538_Netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182547_Netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-07-26-388_com.example.netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184612_Netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-08-01-815_com.example.netflix.jpg" width=160>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184650_Netflix.jpg" width=160>
+
 
 
 [<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-05-18-046_com.example.netflix.jpg" width=160>]
