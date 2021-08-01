@@ -14,14 +14,6 @@
 * Minimal UI optimized for speed
 * Recovers from errors after a failure
 
-## Localization
-
-We are using Weblate to translate TrebleShot. Click [here](https://hosted.weblate.org/engage/TrebleShot/) to go to the
-translation page.
-
-
-[![Translation Status](https://hosted.weblate.org/widgets/trebleshot/-/multi-auto.svg)](https://hosted.weblate.org/engage/TrebleShot/)
-
 ## Screenshots
 
 [<img src="https://github.com/trebleshot/assets/blob/main/screenshots/android/shot1.webp" width=160>](https://github.com/trebleshot/assets/blob/main/screenshots/android/shot1.webp)
