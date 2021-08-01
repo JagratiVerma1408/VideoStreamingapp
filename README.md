@@ -1,5 +1,5 @@
-# VideoStreamingapp/Netflix clone
-An android application based on Java is a clone of the popular streaming app Netflix.
+<h1> VideoStreamingapp/Netflix clone </h1>
+<h2>An android application based on Java and Xml is a clone of the popular streaming app Netflix.</h2>
 
 ## Main Features
 
@@ -38,7 +38,7 @@ An android application based on Java is a clone of the popular streaming app Net
 <td><img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-08-01-815_com.example.netflix.jpg" width=160></td>
   </tr>
   </table>
-   <h3>In App</h3>
+   <h3>In App Functions</h3>
   <table>
   <tr>
 <td><img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184650_Netflix.jpg" width=160></td>
@@ -48,7 +48,7 @@ An android application based on Java is a clone of the popular streaming app Net
 <td><img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184742_Netflix.jpg" width=160></td>
   </tr>
   </table>
-  <h3> Video PLayer</h3>
+  <h3>Video Player</h3>
   <table>
   <tr>
 <td><img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184949_Netflix.jpg" width=320></td>
