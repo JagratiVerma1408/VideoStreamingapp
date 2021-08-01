@@ -92,7 +92,7 @@ public class Search extends AppCompatActivity {
         }
         else {
             allCategoryList=new ArrayList<>();
-            getAllMovieData(4);
+            getAllMovieData();
 
         }
 
@@ -105,10 +105,10 @@ public class Search extends AppCompatActivity {
         MainRecycler.setAdapter(mainRecyclerAdapter);
     }
 
-    private void getAllMovieData(int categoryId) {
+    private void getAllMovieData(){
 
         CompositeDisposable compositeDisposable= new CompositeDisposable();
-        compositeDisposable.add(RetrofitClient.getRetrofitClient().getAllCategoryMovies(categoryId)
+        compositeDisposable.add(RetrofitClient.getRetrofitClient().getAllCategoryMovies()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeWith(new DisposableObserver<List<AllCategory>>(){
