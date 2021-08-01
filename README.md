@@ -31,7 +31,7 @@ An android application based on Java is a clone of the popular streaming app Net
 <img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184708_Netflix.jpg" width=160>
 <img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184720_Netflix.jpg" width=160>
 <img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184742_Netflix.jpg" width=160>
-<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184949_Netflix.jpg" width=360>
+<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184949_Netflix.jpg" width=320>
 <img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-09-06-824_com.example.netflix.jpg" width=160>
 <img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-16-09-924_com.example.netflix.jpg" width=160>
 <img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-16-21-448_com.google.android.gm.jpg" width=160>
