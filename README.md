@@ -54,7 +54,7 @@
 <td><img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-184949_Netflix.jpg" width=320></td>
   </tr>
   </table>
-  <h3>Password Reset</h3>
+  <h3>Password Update & Reset</h3>
   <table>
   <tr>
 <td><img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-09-06-824_com.example.netflix.jpg" width=160></td>
