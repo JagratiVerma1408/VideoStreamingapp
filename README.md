@@ -16,7 +16,7 @@
 * Automatic Monthly payment requirement like Netflix (by saving the day of payment and comparing at the time of login).
 * EditText error highlight (when incorrect data is entered).
 
-## Screenshots
+# Screenshots
 <h3>SIGN IN/UP</h3>
 <table>
 <tr>
