@@ -13,7 +13,7 @@ An android application based on Java is a clone of the popular streaming app Net
 * Payment Gateway (via RazorPay which is a Demo version).
 * Update & Forgot Password (via Firebase Authentication by sending the email to registered id in case of forgot password).
 * Automatic Monthly payment requirement like Netflix (by saving the day of payment and comparing at the time of login).
-* Edittext error highlight (when incorrect data is entered).
+* EditText error highlight (when incorrect data is entered).
 
 ## Screenshots
 <img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-05-18-046_com.example.netflix.jpg" width=160>   <img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182330_Netflix.jpg" width=160>
