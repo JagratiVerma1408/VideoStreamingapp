@@ -14,15 +14,6 @@
 * Minimal UI optimized for speed
 * Recovers from errors after a failure
 
-## Build from Source
-
-Run the following command to build the `fossReliant` variant in debug mode on Unix-alike OSes.
-
-```sh
-./gradlew -Dorg.gradle.jvmargs=-Xmx1536m assembleFossReliantDebug \ 
-      lintFossReliantDebug testFossReliantDebugUnitTest
-```
-
 ## Localization
 
 We are using Weblate to translate TrebleShot. Click [here](https://hosted.weblate.org/engage/TrebleShot/) to go to the
