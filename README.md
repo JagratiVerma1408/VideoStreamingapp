@@ -18,9 +18,4 @@ An android application based on Java is a clone of the popular streaming app Net
 ## Screenshots
 
 [<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_2021-08-01-19-05-18-046_com.example.netflix.jpg" width=160>]
-[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182330_Netflix.jpg" width=160>](https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182330_Netflix.jpg)
-[<img src="https://github.com/trebleshot/assets/blob/main/screenshots/android/shot3.webp" width=160>](https://github.com/trebleshot/assets/blob/main/screenshots/android/shot3.webp)
-[<img src="https://github.com/trebleshot/assets/blob/main/screenshots/android/shot4.webp" width=160>](https://github.com/trebleshot/assets/blob/main/screenshots/android/shot4.webp)
-[<img src="https://github.com/trebleshot/assets/blob/main/screenshots/android/shot5.webp" width=160>](https://github.com/trebleshot/assets/blob/main/screenshots/android/shot5.webp)
-[<img src="https://github.com/trebleshot/assets/blob/main/screenshots/android/shot6.webp" width=160>](https://github.com/trebleshot/assets/blob/main/screenshots/android/shot6.webp)
-[<img src="https://github.com/trebleshot/assets/blob/main/screenshots/android/shot7.webp" width=160>](https://github.com/trebleshot/assets/blob/main/screenshots/android/shot7.webp)
+[<img src="https://github.com/Pratyaksh777/VideoStreamingapp/blob/master/Screenshots/Screenshot_20210801-182330_Netflix.jpg" width=160>]
