@@ -1,5 +1,6 @@
 <h1> VideoStreamingapp/Netflix clone </h1>
-<h2>An android application based on Java and Xml is a clone of the popular streaming app Netflix.</h2>
+
+<h3>An android application based on Java and Xml is a clone of the popular streaming app Netflix.</h3>
 
 ## Main Features
 
